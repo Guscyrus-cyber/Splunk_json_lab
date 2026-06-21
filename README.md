@@ -1,6 +1,6 @@
 **Splunk Enterprise JSON Failed Login Monitoring Lab**
 
-## Introduction0
+## Introduction
 
 This lab introduces the use of JSON log data within Splunk Enterprise for Security Operations Center (SOC) monitoring and analysis. JSON (JavaScript Object Notation) is one of the most common formats used by modern security products, cloud platforms, identity providers, firewalls, endpoint detection tools, and web applications.
 
@@ -268,7 +268,6 @@ admin\
 john\
 root
 
-### \
 . Which IP address generated the most failed logins?
 
 Search: index=auth sourcetype="\_json" status=failed\
